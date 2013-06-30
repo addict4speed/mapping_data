@@ -29,6 +29,7 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'rails-i18n'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
