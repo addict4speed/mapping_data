@@ -1,0 +1,5 @@
+latitude,longitude,booking_time,pickup_time,status,app,test
+43.6350398,-79.4347444,2013-03-31 10:30,2013-03-31 15:00,complete,false,false
+0,0,2012-11-22 22:13,2012-11-23 03:12,complete,false,true
+43.64656,-79.385296,2013-02-21 08:32,2013-02-21 13:32,cancelled,true,true
+0,0,2012-11-23 22:13,2012-11-24 03:12,complete,false,false

@@ -1,0 +1,6 @@
+<%= gmaps("markers" => {:data => @json, :options => { :do_clustering => true, :clusterer_gridSize => 30, :clusterer_maxZoom => 15,
+													  :randomize => true, :max_random_distance => 50 }},
+     	  "map_options" => { :auto_zoom => false, :zoom => 5, :provider => "GOOGLE", 
+     						 :provider_key => "AIzaSyB4jlf6sqWlCw7Gzr7CvVipID-fE6A36_k", 
+     						 :auto_adjust => true, :center_on_user => true }) 
+     	   %>	

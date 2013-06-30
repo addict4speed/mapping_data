@@ -1,0 +1,4 @@
+<b><%= trip.app ? "App booking": "Web booking" %></b>
+<p><%= trip.booking_time.in_time_zone("Eastern Time (US & Canada)") %></p>
+<p><%= trip.pickup_time.in_time_zone("Eastern Time (US & Canada)") %></p>
+<p><%= trip.status %></p>

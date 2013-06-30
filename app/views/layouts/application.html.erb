@@ -3,24 +3,18 @@
 <head>
   <title>MappingTest</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <!-- <script type="text/javascript">
-	  $(document).ready(function() {
-	    Gmaps.map.callback = function() {
-	      _.each(Gmaps.map.markers, function(marker) {
-	        Gmaps.map.hideMarker(marker)
-	      })
-	    }
-	  });
-  </script> -->
-
   <%= csrf_meta_tags %>
+  
 </head>
 <body>
 
 <%= yield %>
 <%= yield :scripts %>
 <%= stylesheet_link_tag "gmaps4rails" %>
+<%= stylesheet_link_tag "trips" %>
+
 
 
 </body>
